@@ -11,7 +11,7 @@ let piCounter = 0;
 let gameOver = false;
 
 function preload() {
-  pi = loadStrings('pi.txt');
+  pi = loadStrings('one-million-Pi.txt');
 }
 
 function setup() {
