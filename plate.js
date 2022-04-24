@@ -1,6 +1,6 @@
 class Plate {
   
-  constructor (x, w) {
+  constructor (x,w) {
     this.x = x;
     this.w = w;
     this.h = 10;
