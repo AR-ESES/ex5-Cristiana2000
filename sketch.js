@@ -28,7 +28,7 @@ function draw() {
     background(255, 0, 0);
     fill(255);
     textAlign(CENTER, CENTER);
-    text("Game Over.\nGo and Enjoy Some Pie! 🍰", width/2, height/2);
+    text("Game Over.\nGo and Enjoy Some Pie! 🥧", width/2, height/2);
     return;
   }
   
@@ -59,7 +59,7 @@ function draw() {
       
       let correctDigit = pi.charAt(piCounter)
       if (correctDigit == digit) {
-        console.log("🍰");
+        console.log("🥧");
         digits += digit;
         piCounter++;
         piShow = pi.substring(piCounter, piCounter + 2);
