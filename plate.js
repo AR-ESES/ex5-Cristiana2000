@@ -9,8 +9,9 @@ class Plate {
   
   catches(pie) {
     if (pie.y + pie.r >= this.y && pie.x > this.x-this.w/2 && pie.x < this.x + this.w/2) {
-    return true;
-  } else {
+    return true; 
+    } 
+    else{
     return false;
     }
   }
